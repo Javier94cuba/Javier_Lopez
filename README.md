@@ -2,7 +2,7 @@
 
 Curriculum Vitae
 
-Proyecto creado con Vite, para mostrar mi sitio web.
+Proyecto creado con Vite, para mostrar mi CV.
 
 Tecnologias: React Js - Tailwind - Vite - Yarn
 
