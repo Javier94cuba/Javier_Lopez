@@ -1,8 +1,12 @@
+import Header from "./components/containers/Header"
+import Home from "./components/containers/Home"
+
 function App() {
 
   return (
     <>
-      <h1>Javier CV</h1>
+    <Header/>
+    <Home/>
     </>
   )
 }
