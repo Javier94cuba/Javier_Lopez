@@ -1,34 +1,34 @@
-import image from "../containers/Javier.png";
+import image from "/src/assets/images/Javier.png";
 import Button from "../atoms/Button"; //component button
 import Tecnologies from "../atoms/Tecnologies";
-import react_img from "./react.png"
-import react_native from "./react_native.png"
-import tailwind from "./tailwind.png"
-import vite from "./vite.png"
-import wordpress from "./wordpress.png"
-import typescript from "./typescript.png"
+import react_img from "/src/assets/images/react.png"
+import react_native from "/src/assets/images/react_native.png"
+import tailwind from "/src/assets/images/tailwind.png"
+import vite from "/src/assets/images/vite.png"
+import wordpress from "/src/assets/images/wordpress.png"
+import typescript from "/src/assets/images/typescript.png"
+import github from "/src/assets/images/github.png"
 
 function Home() {
   return (
-    <div className=" w-full h-4/5" >
-      <div className="bg-white flex justify-center space-x-10">
+    <div className=" w-full h-full bg-white dark:bg-slate-900 text-slate-200 mt-10 dark:mt-0 dark:pb-10">
+      <div className="flex justify-center space-x-10">
         <div className="w-1/2 pt-10 pl-20">
-        <h1 className="text-6xl font-bold mt-6 text-center text-zinc-800">Frontend Developer <br/> and movile</h1>
-        <p className="p-4 text-center">¡Hola! Soy Javier Lopéz, tengo 4 años de experiencia como desarrollador de software, graduado
+        <h1 className="text-6xl font-bold ml-24 mt-6 text-center text-zinc-800 dark:text-slate-100 animate-flip-down animate-once">Frontend Developer <br/> and movile</h1>
+        <p className="p-4 ml-24 text-center animate-flip-down animate-once text-slate-950 dark:text-slate-200">¡Hola! Soy Javier Lopéz, tengo 4 años de experiencia como desarrollador de software, graduado
          en la universidad de Ciencias Informáticas UCI (La Habana-Cuba)</p>
-        <div className="flex justify-center">
-        <Button text={"Perfíl Github "}/>
+        <div className="flex justify-center ml-24">
+        <Button text={"Perfíl Github"} img_alt={github}/>
         </div>
         </div>
-        
         <div className="flex justify-center w-1/2 pt-8">
-          <img className="w-1/3 rounded-full scale-100 skew-y-2 mr-20 " src={image} />
+          <img className="w-1/3 rounded-full  skew-y-2 mr-20" src={image} />
+        </div>
+        </div>
+      <section className="pb-6">
         
-        </div>
-        </div>
-      <section>
-      <h1 className=" text-4xl font-bold text-center mt-6">Tecnologías</h1>
-      <h2 className=" text-center mt-2">Con las que actualmente trabajo, <strong>seleccione</strong> una para ver las librerías </h2>
+      <h1 className="text-4xl font-bold text-center mt-10  text-slate-950 dark:text-slate-200">Tecnologías</h1>
+      <h2 className=" text-center mt-2  text-slate-950 dark:text-slate-200">Con las que actualmente trabajo, <strong>seleccione</strong> una para ver las librerías </h2>
       <div className="flex space-x-10 pt-4 justify-center">
       <Tecnologies image_url={react_img} text_image={"React Js"}/>
       <Tecnologies image_url={react_native} text_image={"React Native"}/>
@@ -38,9 +38,7 @@ function Home() {
       <Tecnologies image_url={wordpress} text_image={"Wordpress"}/>
       </div>
       </section>
-      
     </div>
   )
 }
-
 export default Home
