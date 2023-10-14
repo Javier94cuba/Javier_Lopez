@@ -16,7 +16,7 @@ function Contacts() {
 
   return (
     <>
-    <h1 className="text-4xl font-bold text-center mt-10  text-slate-950 dark:text-slate-200 mb-6">Contacto</h1>
+    <h1 id= "contact"className="text-4xl font-bold text-center mt-10  text-slate-950 dark:text-slate-200 mb-6">Contacto</h1>
     
     <div className="flex items-center justify-center ">
     <div className="p-10 border-solid border-4 border-slate-300">

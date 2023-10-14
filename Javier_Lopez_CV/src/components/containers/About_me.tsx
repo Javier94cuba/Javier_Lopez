@@ -1,10 +1,11 @@
-import react_js from "../assets/images/react.png"
-import Button from "../components/atoms/Button"
-import select_icon from "../assets/images/select.png"
+ 
+import react_js from "/src/assets/images/react.png";
+import Button from "../atoms/Button"
+import select_icon from "/src/assets/images/select.png";
 function About_me() {
   return (
     <>
-    <h1 className="text-4xl font-bold text-center mt-4  text-slate-950 dark:text-slate-200">Sobre mí</h1>
+    <h1 id="about_me" className="text-4xl font-bold text-center mt-4  text-slate-950 dark:text-slate-200">Sobre mí</h1>
        <div className="text-center pt-8">
        <p className="pt-2 pb-2">Graduado de la universidad de las Ciencias Informáticas <strong>UCI</strong>  (2014-2019)</p>  
        <p className="pt-2 pb-2">Me decidí ser frontend-developer despues de realizar varios sitios con wordpress, escogí react js <br/> gracias a unas amistades y 

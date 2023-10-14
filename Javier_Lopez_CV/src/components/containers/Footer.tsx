@@ -24,7 +24,7 @@ function Footer() {
     <div>
        <h3 className="font-semibold text-lg mb-1">Necesitas</h3>
         <ul>
-            <li className="mt-2 mb-2">Sitio con wordpress</li>
+            <li className="mt-2 mb-2">Sitio con wordpres</li>
             <li className="mt-2 mb-2">Landing Pages a partir de diseños</li>
             <li className="mt-2 mb-2">Features en tu proyecto</li>
             <li className="mt-2 mb-2">App movíl</li>
@@ -50,7 +50,7 @@ function Footer() {
         </ul>
     </div>
     </section>
-     <p className="text-center pt-5 pb-5 dark:bg-slate-900 dark:text-slate-100">Copyright © 2023.  <strong>JavierLopéz.dev</strong></p>
+     <p className="text-center pt-5 pb-5 dark:bg-slate-900 dark:text-slate-100">Copyright © 2023. <a target="_blank" href="https://github.com/Javier94cuba"><strong className="hover:text-blue-600">JavierLopéz.dev</strong></a> </p>
      </>
   )
 }

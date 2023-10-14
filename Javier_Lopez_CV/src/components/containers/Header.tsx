@@ -16,13 +16,13 @@ function Header() {
                 Inicio
             </li>
             <li className="cursor-pointer hover:animate-jump animate-once hover:text-blue-500">
-                Sobre mí
+            <a href="#about_me">Sobre mí</a> 
             </li>
             <li className="cursor-pointer hover:animate-jump animate-once hover:text-blue-500">
-                Proyectos
+                <a href="#proyects">Proyectos</a>
             </li>
             <li className="cursor-pointer hover:animate-jump animate-once hover:text-blue-500">
-                Contacto
+            <a href="#contact">Contacto</a>
             </li>
 
         </ul>
