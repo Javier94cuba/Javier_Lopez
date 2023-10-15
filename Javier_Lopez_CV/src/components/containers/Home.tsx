@@ -18,7 +18,9 @@ function Home() {
         <p className="p-4 ml-24 text-center animate-flip-down animate-once text-slate-950 dark:text-slate-200">¡Hola! Soy Javier Lopéz, tengo 4 años de experiencia como desarrollador de software, graduado
          en la universidad de Ciencias Informáticas UCI (La Habana-Cuba)</p>
         <div className="flex justify-center ml-24">
-        <Button text={"Perfíl Github"} img_alt={github}/>
+        <p><a target="_blank" href="https://github.com/Javier94cuba">
+        <Button  text={"Perfíl Github"} img_alt={github}/>
+        </a> </p> 
         </div>
         </div>
         <div className="flex justify-center w-1/2 pt-8">
