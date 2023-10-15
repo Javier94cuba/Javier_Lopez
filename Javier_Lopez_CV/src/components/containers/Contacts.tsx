@@ -1,4 +1,5 @@
 import { useForm } from "react-hook-form"
+import Salary from "./Salary"
 function Contacts() {
 
    const {register ,watch, handleSubmit}=useForm({
@@ -16,7 +17,8 @@ function Contacts() {
 
   return (
     <>
-    <h1 id= "contact"className="text-4xl font-bold text-center mt-10  text-slate-950 dark:text-slate-200 mb-6">Contacto</h1>
+    <div className="bg-slate-50 p-10 pb-20 dark:text-slate-100 dark:bg-slate-800">
+    <h1 id= "contact"className="text-4xl font-bold text-center mb-14 text-slate-950 dark:text-slate-200">Contacto</h1>
     
     <div className="flex items-center justify-center ">
     <div className="p-10 border-solid border-4 border-slate-300">
@@ -32,7 +34,7 @@ function Contacts() {
         <label>Email @ : </label>
         <input className="border-solid border-2 border-slate-300 p-1 mb-4" type="tel" {...register('email')} />
       </div>
-      <div>
+      <div className="-ml-1">
         <label>Contrato : </label>
         <select className="border-solid border-2 border-slate-300 p-1 mb-4" {...register('tipodeContrato',{
           required:true,
@@ -43,7 +45,7 @@ function Contacts() {
           <option value="hb">Híbrido</option>
         </select>
       </div>
-      <div>
+      <div className="-ml-3">
         <label>Ubicación : </label>
         <select className="border-solid border-2 border-slate-300 p-1 mb-4" {...register('pais',{
           required:true,
@@ -54,8 +56,8 @@ function Contacts() {
           <option value="es">Otro país</option>
         </select>
       </div>
-      <div className="mb-4">
-        <label >Incluir Dudas o información extra? : </label>
+      <div className="-ml-2">
+        <label >Incluir Dudas o información extra : </label>
       <input type="checkbox" {...register("moreinfo")}/>
       </div>
       <div className="flex items-center justify-center">
@@ -71,8 +73,11 @@ function Contacts() {
       </div>
     </form>
     </div>
+    <Salary/>
     </div>
-    <div className="shadow-xl w-full mb-8 dark:shadow-slate-600 pt-6 "></div>
+    </div>
+    
+    <div className="shadow-xl w-full mb-8 dark:shadow-slate-600 pt-6 dark:mb-0 dark:pt-0"></div>
     </>
   )
 }

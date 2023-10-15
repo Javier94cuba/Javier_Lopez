@@ -5,7 +5,9 @@ import select_icon from "/src/assets/images/select.png";
 function About_me() {
   return (
     <>
-    <h1 id="about_me" className="text-4xl font-bold text-center mt-4  text-slate-950 dark:text-slate-200">Sobre mí</h1>
+    {/* dark:text-slate-100 dark:bg-slate-900 */}
+    <div className="bg-slate-50 p-10 dark:text-slate-100 dark:bg-slate-800">
+    <h1 id="about_me" className=" text-4xl font-bold mt- text-center text-slate-950 dark:text-slate-200">Sobre mí</h1>
        <div className="text-center pt-8">
        <p className="pt-2 pb-2">Graduado de la universidad de las Ciencias Informáticas <strong>UCI</strong>  (2014-2019)</p>  
        <p className="pt-2 pb-2">Me decidí ser frontend-developer despues de realizar varios sitios con wordpress, escogí react js <br/> gracias a unas amistades y 
@@ -15,15 +17,15 @@ function About_me() {
        <div>
        
        </div>
-       <div className="flex justify-center">
+       <div className="flex justify-center mt-6 mb-6">
         <img className="animate-spin animate-infinite animate-duration-[10000ms] animate-delay-[10ms] w/3 mb-2" src={react_js} />
         <div className="ml-5">
         <Button text={"Tecnología"} img_alt={select_icon} />
         </div>
        </div>
-       <div className="flex justify-center space-x-10">
+       <div className="flex justify-center space-x-10 dark:text-slate-900">
        <select >
-  <option value="opcion1" aria-selected>Inicio</option>
+  <option  value="opcion1" aria-selected>Inicio</option>
   <option value="opcion1">Componentes</option>
   <option value="opcion2">Estado</option>
   <option value="opcion3">Prop Drilling</option>
@@ -61,6 +63,7 @@ function About_me() {
       </div>
        <div>
 
+       </div>
        </div>
        
 

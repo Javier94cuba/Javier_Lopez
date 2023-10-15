@@ -5,7 +5,7 @@ import github from "/src/assets/images/github_footer.png"
 function Footer() {
   return (
     <>
-    <section className="bg-white dark:bg-slate-900 pt-4 dark:text-slate-100 w-full flex justify-center space-x-20">
+    <section className="bg-white dark:bg-slate-900 pt-10 dark:text-slate-100 w-full flex justify-center space-x-20">
    
     <div >
        <h3 className="font-semibold text-lg mb-1">Disponibilidad</h3> 
@@ -15,6 +15,9 @@ function Footer() {
             </li>
             <li className="mt-2 mb-2">
                  Parcial
+            </li>
+            <li className="mt-2 mb-2">
+                 Híbrido
             </li>
             <li className="mt-2 mb-2">
                  Tiempo completo
@@ -34,10 +37,10 @@ function Footer() {
     <div>
     <h3 className="font-semibold text-lg mb-1">Menú</h3>
         <ul>
-            <li className="mt-2 mb-2">Inicio</li>
-            <li className="mt-2 mb-2">Sobre mí</li>
-            <li className="mt-2 mb-2">Proyectos</li>
-            <li className="mt-2 mb-2"> Contácto</li>
+            <li className="mt-2 mb-2 cursor-pointer hover:animate-jump animate-once hover:text-blue-500">Inicio</li>
+            <li className="mt-2 mb-2 cursor-pointer hover:animate-jump animate-once hover:text-blue-500"><a href="#about_me">Sobre mí</a></li>
+            <li className="mt-2 mb-2 cursor-pointer hover:animate-jump animate-once hover:text-blue-500"><a href="#proyects">Proyectos</a></li>
+            <li className="mt-2 mb-2 cursor-pointer hover:animate-jump animate-once hover:text-blue-500"><a href="#contact">Contacto</a></li>
         </ul>
     </div>
     <div>
@@ -45,7 +48,7 @@ function Footer() {
        <ul>   
             <li className="mt-2 mb-2 flex"><img className=" h-7" src={phone}/>&nbsp;: +(53) 58386901</li>
             <li className="mt-2 mb-2 flex"><img className=" h-7" src={email}/>&nbsp;: jlopezhdez94@gmail.com</li>
-            <li className="mt-2 mb-2 flex"><img className="h-7" src={github}/>&nbsp;:&nbsp; <a href="google.com"> Github</a></li>
+            <li className="mt-2 mb-2 flex "><img className="h-7" src={github}/>&nbsp;:&nbsp; <a className="cursor-pointer hover:animate-jump animate-once hover:text-blue-500" target="_blank" href="https://github.com/Javier94cuba"> Github</a></li>
             
         </ul>
     </div>
