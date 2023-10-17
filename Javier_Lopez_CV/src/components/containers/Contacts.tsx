@@ -1,5 +1,4 @@
 import { useForm } from "react-hook-form"
-import Salary from "./Salary"
 function Contacts() {
 
    const {register ,watch, handleSubmit}=useForm({
@@ -73,7 +72,6 @@ function Contacts() {
       </div>
     </form>
     </div>
-    <Salary/>
     </div>
     </div>
     
