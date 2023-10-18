@@ -15,7 +15,7 @@ function Home() {
       <div className="flex justify-center space-x-10">
         <div className="w-1/2 pt-10 pl-20">
         <h1 className="text-6xl font-bold ml-24 mt-6 text-center text-zinc-800 dark:text-slate-100 animate-flip-down animate-once">Frontend Developer <br/> and movile</h1>
-        <p className="p-4 ml-24 text-center animate-flip-down animate-once text-slate-950 dark:text-slate-200">¡Hola! Soy Javier Lopéz, tengo 4 años de experiencia como desarrollador de software, graduado
+        <p className="p-4 ml-24 text-center animate-flip-down animate-once text-slate-950 dark:text-slate-200">¡Hola! Soy Javier Lopéz, tengo 3 años de experiencia como desarrollador de software, graduado
          en la universidad de Ciencias Informáticas UCI (La Habana-Cuba)</p>
         <div className="flex justify-center ml-24">
         <p><a target="_blank" href="https://github.com/Javier94cuba">
