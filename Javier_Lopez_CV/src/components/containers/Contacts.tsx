@@ -16,7 +16,7 @@ function Contacts() {
 
   return (
     <>
-    <div className="bg-slate-50 p-10 pb-20 dark:text-slate-100 dark:bg-slate-800">
+    <div className="bg-white p-10 pb-20 dark:text-slate-100 dark:bg-slate-800">
     <h1 id= "contact"className="text-4xl font-bold text-center mb-14 text-slate-950 dark:text-slate-200">Contacto</h1>
     
     <div className="flex items-center justify-center ">
