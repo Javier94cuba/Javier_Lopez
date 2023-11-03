@@ -29,7 +29,7 @@ function Home() {
         </div>
       <section className="pb-6">
         
-      <h1 className="text-4xl font-bold text-center mt-10  text-slate-950 dark:text-slate-200">Tecnologías</h1>
+      <h1 className="text-4xl font-bold text-center mt-10 mb-10  text-slate-950 dark:text-slate-200">Tecnologías</h1>
       <h2 className=" text-center mt-2  text-slate-950 dark:text-slate-200">Con las que actualmente trabajo, <strong>seleccione</strong> una para ver las librerías </h2>
       <div className="flex space-x-10 pt-4 justify-center">
       <Tecnologies image_url={react_img} text_image={"React Js"}/>

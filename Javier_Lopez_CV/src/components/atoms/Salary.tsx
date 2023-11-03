@@ -11,13 +11,29 @@ export default function Salary() {
 
   let [salary_value, setSalary_value] = useState(0);
   let [country, setCountry] = useState("");
-  let [tec, setTec] = useState("");
   let [valuetec,setValueTec]=useState(0);
   const [isChecked, setIsChecked] = useState(false);
+  const [iswordpressChecked, setIsWordpressChecked] = useState(false);
+  const [isreactChecked, setIsReactChecked] = useState(false);
+  const [isreactNChecked, setIsReactNChecked] = useState(false);
 
   const handleOnChange = () => {
     setIsChecked(!isChecked);
   };
+
+  const handleOnNewChange = () => {
+    setIsWordpressChecked(!iswordpressChecked);
+  };
+
+  const handleOnReactChange = () => {
+    setIsReactChecked(!isreactChecked);
+  };
+
+  const handleReactNChange = () => {
+    setIsReactNChecked(!isreactNChecked);
+  };
+
+
 
   const handlevent = () =>{
     setCountry(country="cuba")
@@ -52,38 +68,29 @@ export default function Salary() {
   }
 
   const handlevent_wordpress = () =>{
-    setTec(tec="wordpress")
-    if(tec==="wordpress"){
-    setValueTec(valuetec=50)
-    } 
-    else
-    tec=""
+    if(iswordpressChecked==false){
+      setValueTec(valuetec+=50)
+    }
+      else
+      setValueTec(valuetec-=50)
   }
 
-
-  const handleSalary = () => {
-  if ((isChecked == false) && (country == ""))
-  country === "" ?
-  setSalary_value(
-  salary_value = 0
-  ) :
-  country === "cuba" ?
-  setSalary_value(
-  salary_value = 300
-  ) :
-  country === "usa" ?
-  setSalary_value(
-  salary_value = 500
-  ) :
-  country === "espana" ?
-  setSalary_value(
-  salary_value = 400
-  ) :
- setCountry("") 
+  const handlevent_reactjs = () =>{
+    if(isreactChecked==false){
+      setValueTec(valuetec+=100)
+    }
+      else
+      setValueTec(valuetec-=100)
   }
 
-  
- 
+  const handlevent_reactN = () =>{
+    if(isreactNChecked==false){
+      setValueTec(valuetec+=50)
+    }
+      else
+      setValueTec(valuetec-=50)
+  }
+
   return (
     <div className="bg-white pb-20">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
@@ -136,15 +143,15 @@ export default function Salary() {
 <fieldset>
   <legend className=' pb-1 text-sm leading-6 text-gray-600 sm:grid-cols-2 sm:gap-6'>Tecnologías</legend>
   <div>
-    <input type="checkbox" id="scales" name="scales" onClick={handlevent_wordpress} />
+    <input type="checkbox" id="wordpress" checked={iswordpressChecked} onClick={handlevent_wordpress} onChange={handleOnNewChange} />
     <label className='text-sm leading-6 text-gray-600 sm:grid-cols-2 sm:gap-6'> Wordpress</label>
   </div>
   <div>
-    <input type="checkbox" id="horns" name="horns" />
+    <input type="checkbox" id="reactjs" checked={isreactChecked}  onClick={handlevent_reactjs} onChange={handleOnReactChange}/>
     <label className='text-sm leading-6 text-gray-600 sm:grid-cols-2 sm:gap-6'> React JS</label>
   </div>
   <div>
-    <input type="checkbox" id="horns" name="horns" />
+    <input type="checkbox" id="reactnative" checked={isreactNChecked} onClick={handlevent_reactN} onChange={handleReactNChange} />
     <label className='text-sm leading-6 text-gray-600 sm:grid-cols-2 sm:gap-6'> React Native</label>
   </div>
 </fieldset>
@@ -187,16 +194,10 @@ export default function Salary() {
                 <p className="mt-6 flex items-baseline justify-center gap-x-2">
                   <div className="text-5xl font-bold tracking-tight text-gray-900">
                     <p>{isChecked == false ?  "$ ???" : `${salary_value}$`} </p>
-                    <p className='text-green-400 text-2xl'>{isChecked == false ? "0" : `+ ${valuetec} tec `}{}</p> 
-                     </div>
+                    <p className='text-green-400 text-2xl mb-1 mt-1 ml-7'>{(iswordpressChecked || isreactChecked || isreactNChecked) == false ? "" : `+ ${valuetec} $`}</p>  
+                  </div>
                   <span className="text-xs font-semibold leading-6 tracking-wide text-gray-600">(USD,EUR)</span>
                 </p>
-                <button
-                  onClick={handleSalary}
-                  className="bg-slate-800 shadow-lg shadow-slate-500/50 dark:bg-slate-100 dark:text-black hover:bg-slate-600 dark:hover:bg-white text-white py-2 px-4 mt-10 font-semibold rounded-lg  focus:outline-none focus:ring-2 focus:ring-blue-800 focus:ring-opacity-100 animate-bounce animate-infinite items-center justify-center"
-                >
-                  Calcular salario
-                </button>
                 <p className="mt-6 text-xs leading-5 text-gray-600">
                   En base a los requisitos estimo un rango de salario deseado
                 </p>
