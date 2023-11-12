@@ -116,7 +116,7 @@ export default function Salary() {
               ))}
             </ul>
 
-<div className='flex space-x-20 pt-4 items-start justify-start mt-6 text-base leading-7 text-gray-600'>
+<div className='grid grid-cols-2 md:flex md:space-x-20 pt-4 md:items-start md:justify-start md:mt-6 md:text-base leading-7 text-gray-600'>
 <fieldset>
   <div className='text-sm leading-6 text-gray-600 sm:grid-cols-2 sm:gap-6'>
   <legend className=' pb-1 text-sm leading-6 text-gray-600 sm:grid-cols-2 sm:gap-6'>País</legend>
@@ -189,7 +189,7 @@ export default function Salary() {
           </div>
           <div className="-mt-2 p-2 lg:mt-0 lg:w-full lg:max-w-md lg:flex-shrink-0">
             <div className="flex rounded-2xl bg-gray-50 py-10 text-center ring-1 ring-inset ring-gray-900/5 lg:flex lg:flex-col lg:justify-center lg:py-16">
-              <div className="mx-auto max-w-xs px-8 mt-5 mb-12 pt-20">
+              <div className="mx-auto md:max-w-xs md:px-8 md:mt-5 md:mb-12 md:pt-20">
                 <p className="text-base font-semibold text-gray-600">“El que está satisfecho con su parte es rico”. (Lao Tsé)</p>
                 <p className="mt-6 flex items-baseline justify-center gap-x-2">
                   <div className="text-5xl font-bold tracking-tight text-gray-900">
