@@ -1,7 +1,7 @@
 import image from "/src/assets/images/Javier.png";
 import Button from "../atoms/Button"; //component button
 import Tecnologies from "../atoms/Tecnologies";
-import react_img from "/src/assets/images/react.png"
+import react_img from "/src/assets/images/react_native.png"
 import react_native from "/src/assets/images/nextjs.png"
 import tailwind from "/src/assets/images/tailwind.png"
 import vite from "/src/assets/images/vite.png"
