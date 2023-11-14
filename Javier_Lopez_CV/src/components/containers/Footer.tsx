@@ -43,12 +43,11 @@ function Footer() {
         </ul>
     </div>
     <div>
-    <h3 className="font-semibold text-lg mb-1">Contáctame</h3>
-       <ul className="ml-52">
-       <li className="mt-2 mb-2 flex "><img className="h-7" src={github}/>&nbsp;:&nbsp; <a className="cursor-pointer hover:animate-jump animate-once hover:text-blue-500" target="_blank" href="https://linkedin.com/in/javier-lopéz-hernández-831a01192 "> linkedin</a></li>
+    <h3 className="font-semibold text-lg mb-1 mr-28">Contáctame</h3>
+       <ul className="mb-4">
+       <li className="mt-2 mb-2 flex"><img className="h-7" src={github}/>&nbsp;:&nbsp; <a className="cursor-pointer hover:animate-jump animate-once hover:text-blue-500" target="_blank" href="https://linkedin.com/in/javier-lopéz-hernández-831a01192 "> linkedin</a></li>
        <li className="mt-2 mb-2 flex"><img className=" h-7" src={phone}/>&nbsp;: +(53) 58386901</li>
        <li className="mt-2 mb-2 flex"><img className=" h-7" src={email}/>&nbsp;: jlopezhdez94@gmail.com</li>
-            
             
         </ul>
     </div>

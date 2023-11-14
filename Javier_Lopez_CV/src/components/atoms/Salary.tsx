@@ -190,7 +190,7 @@ export default function Salary() {
           <div className="-mt-2 p-2 lg:mt-0 lg:w-full lg:max-w-md lg:flex-shrink-0">
             <div className="flex rounded-2xl bg-gray-50 py-10 text-center ring-1 ring-inset ring-gray-900/5 lg:flex lg:flex-col lg:justify-center lg:py-16">
               <div className="mx-auto md:max-w-xs md:px-8 md:mt-5 md:mb-12 md:pt-20">
-                <p className="text-base font-semibold text-gray-600">“El que está satisfecho con su parte es rico”. (Lao Tsé)</p>
+                <p className="text-base font-semibold text-gray-600">“En base a los requisitos estimo un rango de salario deseado“</p>
                 <p className="mt-6 flex items-baseline justify-center gap-x-2">
                   <div className="text-5xl font-bold tracking-tight text-gray-900">
                     <p>{isChecked == false ?  "$ ???" : `${salary_value}$`} </p>
@@ -199,7 +199,7 @@ export default function Salary() {
                   <span className="text-xs font-semibold leading-6 tracking-wide text-gray-600">(USD,EUR)</span>
                 </p>
                 <p className="mt-6 text-xs leading-5 text-gray-600">
-                  En base a los requisitos estimo un rango de salario deseado
+                  Tipo de contrato y duración no es influyente.
                 </p>
               </div>
             </div>
