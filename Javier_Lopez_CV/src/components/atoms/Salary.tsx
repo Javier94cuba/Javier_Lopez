@@ -120,8 +120,7 @@ export default function Salary() {
 <fieldset>
   <div className='text-sm leading-6 text-gray-600 sm:grid-cols-2 sm:gap-6'>
   <legend className=' pb-1 text-sm leading-6 text-gray-600 sm:grid-cols-2 sm:gap-6'>País</legend>
-    <input type="checkbox" id="cu" name={country} onClick={handlevent}
-          onChange={handleOnChange} />
+    <input type="checkbox" id="cu" name={country} onClick={handlevent} onChange={handleOnChange} />
     <label className='text-sm leading-6 text-gray-600 sm:grid-cols-2 sm:gap-6'> Cuba</label>
   </div>
   <div>
