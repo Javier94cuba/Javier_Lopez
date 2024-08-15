@@ -1,4 +1,4 @@
-import darkMode from "/src/assets/images/darkmode.png"
+
 
 
 const mostrar = () => {
@@ -23,9 +23,7 @@ const mostrar = () => {
     )
 }
 function Header() {
-    const changeColor = () =>{
-    document.documentElement.classList.toggle("dark");
-}
+
   return (
     <>
     <header className="flex w-full shadow-xl dark:shadow-slate-950 dark:shadow-2 bg-white dark:bg-slate-900 text-slate-950 dark:text-slate-200 ">
