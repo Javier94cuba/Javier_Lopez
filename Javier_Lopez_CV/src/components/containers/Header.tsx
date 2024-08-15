@@ -32,20 +32,20 @@ function Header() {
     <div className="w-1/2 font-bold text-center p-8 text-2xl cursor-pointer">JavierLopéz.dev</div>
     <div className="md:w-full md:text-center">
         <ul className="hidden md:flex md:space-x-10 md:p-8 md:place-content-center md:text-lg md:ml-20">
-            <li>
+            {/* <li>
                 <img className="w-8 hover:animate-bounce animate-once dark:bg-white dark:rounded-full" onClick={changeColor} src={darkMode}/>
+            </li> */}
+            <li className="cursor-pointer hover:animate-jump animate-once hover:text-blue-500">
+               Home
             </li>
             <li className="cursor-pointer hover:animate-jump animate-once hover:text-blue-500">
-                Inicio
+            <a href="#about_me">About me</a> 
             </li>
             <li className="cursor-pointer hover:animate-jump animate-once hover:text-blue-500">
-            <a href="#about_me">Sobre mí</a> 
+                <a href="#proyects">Projects</a>
             </li>
             <li className="cursor-pointer hover:animate-jump animate-once hover:text-blue-500">
-                <a href="#proyects">Proyectos</a>
-            </li>
-            <li className="cursor-pointer hover:animate-jump animate-once hover:text-blue-500">
-            <a href="#contact">Contacto</a>
+            <a href="#contact">Contact</a>
             </li>
         </ul>
         <div className="md:hidden">

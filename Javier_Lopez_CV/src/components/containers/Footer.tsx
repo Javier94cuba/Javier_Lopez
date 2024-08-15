@@ -10,43 +10,37 @@ function Footer() {
        <h3 className="font-semibold text-lg mb-1">Disponibilidad</h3> 
         <ul className="font-sans">
             <li className="mt-2 mb-2">
-                 Remoto
+            Remote
             </li>
             <li className="mt-2 mb-2">
-                 Parcial
+            Hybrid
             </li>
             <li className="mt-2 mb-2">
-                 Híbrido
-            </li>
-            <li className="mt-2 mb-2">
-                 Tiempo completo
+                 Full time
             </li>
         </ul>
     </div>
     <div>
        <h3 className="font-semibold text-lg mb-1">Necesitas</h3>
         <ul className="mb-4">
-            <li className="mt-2 mb-2">Sitio con wordpres</li>
-            <li className="mt-2 mb-2">Landing Pages a partir de diseños</li>
-            <li className="mt-2 mb-2">Features en tu proyecto</li>
-            <li className="mt-2 mb-2">App movíl</li>
-
+            <li className="mt-2 mb-2">You want a site with Wordpress</li>
         </ul>
     </div>
     <div>
     <h3 className="font-semibold text-lg mb-1">Menú</h3>
         <ul className="mb-4">
-            <li className="mt-2 mb-2 cursor-pointer hover:animate-jump animate-once hover:text-blue-500">Inicio</li>
-            <li className="mt-2 mb-2 cursor-pointer hover:animate-jump animate-once hover:text-blue-500"><a href="#about_me">Sobre mí</a></li>
-            <li className="mt-2 mb-2 cursor-pointer hover:animate-jump animate-once hover:text-blue-500"><a href="#proyects">Proyectos</a></li>
-            <li className="mt-2 mb-2 cursor-pointer hover:animate-jump animate-once hover:text-blue-500"><a href="#contact">Contacto</a></li>
+            <li className="mt-2 mb-2 cursor-pointer hover:animate-jump animate-once hover:text-blue-500">Home</li>
+            <li className="mt-2 mb-2 cursor-pointer hover:animate-jump animate-once hover:text-blue-500"><a href="#about_me">About me</a></li>
+            <li className="mt-2 mb-2 cursor-pointer hover:animate-jump animate-once hover:text-blue-500"><a href="#proyects">Projects</a></li>
+            <li className="mt-2 mb-2 cursor-pointer hover:animate-jump animate-once hover:text-blue-500"><a href="#contact">Contact</a></li>
         </ul>
     </div>
     <div>
     <h3 className="font-semibold text-lg mb-1 mr-28">Contáctame</h3>
        <ul className="mb-4">
        <li className="mt-2 mb-2 flex"><img className="h-7" src={github}/>&nbsp;:&nbsp; <a className="cursor-pointer hover:animate-jump animate-once hover:text-blue-500" target="_blank" href="https://linkedin.com/in/javier-lopéz-hernández-831a01192 "> linkedin</a></li>
-       <li className="mt-2 mb-2 flex"><img className=" h-7" src={phone}/>&nbsp;: +(53) 58386901</li>
+       <li className="mt-2 mb-2 flex"><img className=" h-7" src={phone}/>&nbsp;:<a href="https://api.whatsapp.com/send?phone=17862009016&text=Hola%2C%20Javier">+(1) 786 200 9016</a> </li>
+       
        <li className="mt-2 mb-2 flex"><img className=" h-7" src={email}/>&nbsp;: jlopezhdez94@gmail.com</li>
             
         </ul>

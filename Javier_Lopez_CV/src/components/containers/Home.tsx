@@ -15,11 +15,11 @@ function Home() {
       <div className="md:flex md:justify-center md:space-x-10">
         <div className="md:w-1/2 md:pt-10 md:pl-20">
         <h1 className="text-4xl md:text-6xl font-bold md:mt-6 text-center text-zinc-800 dark:text-slate-100 animate-flip-down animate-once">Frontend Developer <br/> and movile</h1>
-        <p className="pt-10 text-center animate-flip-down animate-once text-slate-950 dark:text-slate-200">¡Hola! Soy Javier Lopéz, tengo 3 años de experiencia como desarrollador de software, graduado
-         en la universidad de Ciencias Informáticas UCI (La Habana-Cuba)</p>
+        <p className="pt-10 text-center animate-flip-down animate-once text-slate-950 dark:text-slate-200">I am writing to express my interest in collaborating with your company as a freelancer. With over 4 years of experience in creating websites using the WordPress CMS, I have successfully completed several projects both as part of a team and independently.
+        </p>
         <div className="">
         <p><a target="_blank" href="https://github.com/Javier94cuba">
-        <Button  text={"Perfíl Github"} img_alt={github}/>
+        <Button  text={"Github Profile"} img_alt={github}/>
         </a></p> 
         </div>
         </div>
@@ -29,8 +29,8 @@ function Home() {
         </div>
       <section className="pb-6">
         
-      <h1 className="text-4xl font-bold text-center mt-10 mb-10  text-slate-950 dark:text-slate-200">Tecnologías</h1>
-      <h2 className=" text-center mt-2  text-slate-950 dark:text-slate-200">Con las que actualmente trabajo, en mis proyectos recientes </h2>
+      <h1 className="text-4xl font-bold text-center mt-10 mb-10  text-slate-950 dark:text-slate-200">Technologies</h1>
+      <h2 className=" text-center mt-2  text-gray-900 dark:text-slate-200">With which I currently work, in my recent projects </h2>
       <div className="columns-3 md:flex md:space-x-10 pt-4 md:justify-center">
       <Tecnologies image_url={react_img} text_image={"React Js"}/>
       <Tecnologies image_url={typescript} text_image={"Typescript"}/>
