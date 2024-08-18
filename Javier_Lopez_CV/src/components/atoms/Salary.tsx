@@ -96,12 +96,9 @@ export default function Salary() {
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="mx-auto max-w-2xl rounded-3xl ring-1 ring-gray-200 sm:mt-20 lg:mx-0 lg:flex lg:max-w-none">
           <div className="p-8 sm:p-10 lg:flex-auto">
-            <h3 className="text-2xl font-bold tracking-tight text-gray-900">Salario estimado</h3>
-            <p className="mt-6 text-base leading-7 text-gray-600">
-              A partir de los checkbocks que le doy prioridad estimo un rango salarial que aceptaría con gusto, es solo un estimado tendría mas factores 
-            </p>
+            <h3 className="text-2xl font-bold tracking-tight text-gray-900">Estimated Salary</h3>
             <div className="mt-10 flex items-center gap-x-4">
-              <h4 className="flex-none text-sm font-semibold leading-6 text-indigo-600">Especificaciones</h4>
+              <h4 className="flex-none text-xl font-semibold leading-6 text-indigo-600">Specs</h4>
               <div className="h-px flex-auto bg-gray-100" />
             </div>
             <ul
@@ -189,7 +186,7 @@ export default function Salary() {
           <div className="-mt-2 p-2 lg:mt-0 lg:w-full lg:max-w-md lg:flex-shrink-0">
             <div className="flex rounded-2xl bg-gray-50 py-10 text-center ring-1 ring-inset ring-gray-900/5 lg:flex lg:flex-col lg:justify-center lg:py-16">
               <div className="mx-auto md:max-w-xs md:px-8 md:mt-5 md:mb-12 md:pt-20">
-                <p className="text-base font-semibold text-gray-600">“En base a los requisitos estimo un rango de salario deseado“</p>
+                <p className="text-base font-semibold text-gray-600">“Based on the requirements I estimate a desired salary range“</p>
                 <p className="mt-6 flex items-baseline justify-center gap-x-2">
                   <div className="text-5xl font-bold tracking-tight text-gray-900">
                     <p>{isChecked == false ?  "$ ???" : `${salary_value}$`} </p>
@@ -198,7 +195,7 @@ export default function Salary() {
                   <span className="text-xs font-semibold leading-6 tracking-wide text-gray-600">(USD,EUR)</span>
                 </p>
                 <p className="mt-6 text-xs leading-5 text-gray-600">
-                  Tipo de contrato y duración no es influyente.
+                Type of contract and duration are not influential
                 </p>
               </div>
             </div>

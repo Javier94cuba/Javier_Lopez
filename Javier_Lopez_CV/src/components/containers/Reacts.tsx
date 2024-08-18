@@ -1,4 +1,4 @@
-// import react_js from "/src/assets/images/react.png";
+ import react_js from "/src/assets/images/reacts.png";
 import { ChartPieIcon, CloudArrowUpIcon, HeartIcon, LightBulbIcon, LockOpenIcon, ReceiptRefundIcon, ServerIcon, ShareIcon, Square2StackIcon, WindowIcon } from '@heroicons/react/20/solid'
 function Reacts() {
   return (
@@ -6,13 +6,13 @@ function Reacts() {
     <div className="relative bg-white">
       <div className="mx-auto max-w-7xl lg:flex lg:justify-between lg:px-8 xl:justify-end">
         <div className="lg:flex lg:w-1/2 lg:shrink lg:grow-0 xl:absolute xl:inset-y-0 xl:right-1/2 xl:w-1/2">
-          <div className="relative h-80 lg:-ml-8 lg:h-auto lg:w-full lg:grow xl:ml-0">
-            <img
-              alt=""
-              src="https://images.unsplash.com/photo-1559136555-9303baea8ebd?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&crop=focalpoint&fp-x=.4&w=2560&h=3413&&q=80"
-              className="absolute inset-0 h-full w-full bg-gray-50 object-cover"
-            />
-          </div>
+        <div className="ml-16 p-12 lg:sticky lg:top-4 lg:col-start-2 lg:row-span-2 lg:row-start-1 lg:overflow-hidden">
+          <img
+            src={react_js}
+            //  className="w-[48rem] max-w-none rounded-xl bg-gray-900 shadow-xl ring-1 ring-gray-400/10 sm:w-[57rem]"
+            className="h-72  "
+          />
+        </div>
         </div>
         <div className="px-6 lg:contents">
           <div className="mx-auto max-w-2xl pb-24 pt-16 sm:pb-32 sm:pt-20 lg:ml-8 lg:mr-0 lg:w-full lg:max-w-lg lg:flex-none lg:pt-32 xl:w-1/2">

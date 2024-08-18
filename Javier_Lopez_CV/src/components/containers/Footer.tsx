@@ -42,7 +42,6 @@ function Footer() {
        <li className="mt-2 mb-2 flex"><img className=" h-7" src={phone}/>&nbsp;:<a href="https://api.whatsapp.com/send?phone=17862009016&text=Hola%2C%20Javier">+(1) 786 200 9016</a> </li>
        
        <li className="mt-2 mb-2 flex"><img className=" h-7" src={email}/>&nbsp;: jlopezhdez94@gmail.com</li>
-            
         </ul>
     </div>
     </section>
