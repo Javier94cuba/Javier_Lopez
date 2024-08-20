@@ -8,6 +8,7 @@ import vite from "/src/assets/images/vite.png"
 import wordpress from "/src/assets/images/wordpress.png"
 import typescript from "/src/assets/images/typescript.png"
 import github from "/src/assets/images/github.png"
+import cv from "/src/assets/images/Javier-Lopez CV.pdf"
 
 function Home() {
   return (
@@ -17,10 +18,16 @@ function Home() {
         <h1 className="text-4xl md:text-6xl font-bold md:mt-6 text-center text-zinc-800 dark:text-slate-100 animate-flip-down animate-once">Frontend Developer <br/> and movile</h1>
         <p className="pt-10 text-center animate-flip-down animate-once text-slate-950 dark:text-slate-200">I am writing to express my interest in collaborating with your company as a freelancer. With over 4 years of experience in creating websites using the WordPress CMS, I have successfully completed several projects both as part of a team and independently.
         </p>
-        <div className="">
+        <div className="columns-2">
         <p><a target="_blank" href="https://github.com/Javier94cuba">
         <Button  text={"Github Profile"} img_alt={github}/>
-        </a></p> 
+        </a>
+        <div className="mr-40">
+        <a target="_blank" href={cv}>
+        <Button  text={"Download CV"}/>
+        </a>
+        </div>
+        </p>
         </div>
         </div>
         <div className="md:flex md:justify-center md:items-center md:w-1/2 md:pt-8">

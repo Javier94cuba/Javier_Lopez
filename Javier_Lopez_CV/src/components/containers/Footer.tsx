@@ -7,7 +7,7 @@ function Footer() {
     <>
     <section className="bg-white text-center dark:bg-slate-900 pt-10 dark:text-slate-100 w-full md:flex md:justify-center md:space-x-20">
     <div className="mb-4">
-       <h3 className="font-semibold text-lg mb-1">Disponibilidad</h3> 
+       <h3 className="font-semibold text-lg mb-1">Availability</h3> 
         <ul className="font-sans">
             <li className="mt-2 mb-2">
             Remote
@@ -16,18 +16,21 @@ function Footer() {
             Hybrid
             </li>
             <li className="mt-2 mb-2">
-                 Full time
+            Full time
             </li>
         </ul>
     </div>
     <div>
-       <h3 className="font-semibold text-lg mb-1">Necesitas</h3>
+       <h3 className="font-semibold text-lg mb-1">Need?</h3>
         <ul className="mb-4">
             <li className="mt-2 mb-2">You want a site with Wordpress</li>
         </ul>
+        <ul className="mb-4">
+            <li className="mt-2 mb-2">Interview</li>
+        </ul>
     </div>
     <div>
-    <h3 className="font-semibold text-lg mb-1">Menú</h3>
+    <h3 className="font-semibold text-lg mb-1">Menu</h3>
         <ul className="mb-4">
             <li className="mt-2 mb-2 cursor-pointer hover:animate-jump animate-once hover:text-blue-500">Home</li>
             <li className="mt-2 mb-2 cursor-pointer hover:animate-jump animate-once hover:text-blue-500"><a href="#about_me">About me</a></li>
