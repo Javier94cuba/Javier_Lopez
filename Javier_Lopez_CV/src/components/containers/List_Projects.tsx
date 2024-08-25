@@ -9,7 +9,7 @@ function Portfolio() {
     <>
     <div className="pb-20 dark:text-slate-100 dark:bg-slate-900 pt-5">
    <h1 id="proyects" className="text-4xl font-bold text-center text-slate-950 dark:text-slate-200">Projects</h1>
-   <div className="mt-5 md:flex mr-10 ml-10">
+   <div className="mt-5 md:flex mr-10 -ml-10">
     <Project text_img="React Js" img_tec={react_native} image={portafolio} name="Javier Lopéz" url="https://javier-lopez-pnrp.vercel.app/"/>
     <Project text_img="Wordpress" img_tec={wordpress} image={cubaphotos} name="Cubaphotostrips" url="https://cubaphototrips.com/"/>
     <Project text_img="Wordpress" img_tec={wordpress} image={tiendacentro} name="Tienda Centro" url="https://tiendacentro.net/"/>
