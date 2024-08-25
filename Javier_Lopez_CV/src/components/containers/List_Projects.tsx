@@ -16,9 +16,8 @@ function Portfolio() {
     <Project text_img="Wordpress" img_tec={wordpress} image={cubaphotos} name="Cubaphotostrips" url="https://cubaphototrips.com/"/>
     <Project text_img="Wordpress" img_tec={wordpress} image={tiendacentro} name="Tienda Centro" url="https://tiendacentro.net/"/>
     </div>
-    <div className="mt-5 md:flex md:ml-44 ">
+    <div className="mt-5 mr-10 -ml-10 md:flex md:ml-44 ">
     <Project text_img="Next JS" img_tec={nextjs} image={app} name="App-Gestión" url="https://gestor-hotel-git-master-javier94cubas-projects.vercel.app/Recibir_envio"/>
-    
     </div>
     </div>
     </>
