@@ -43,7 +43,7 @@ function Footer() {
        <ul className="mb-4 ml-36 sm:ml-20">
        <li className="mt-2 mb-2 flex"><img className="h-7" src={github}/>&nbsp;:&nbsp; <a className="cursor-pointer hover:animate-jump animate-once hover:text-blue-500" target="_blank" href="https://linkedin.com/in/javier-lopéz-hernández-831a01192 "> Linkedin</a></li>
        <li className="mt-2 mb-2 flex"><img className=" h-7" src={phone}/>&nbsp;:<a href="https://api.whatsapp.com/send?phone=17862009016&text=Hola%2C%20Javier">+(1) 786 200 9016</a> </li>
-       <li className="mt-2 mb-2 flex"><img className=" h-7" src={email}/>&nbsp;: jlopezhdez94@gmail.com</li>
+       <li className="mt-2 mb-2 flex"><img className=" h-7" src={email}/>&nbsp;: jlopezhdez94@gmail</li>
         </ul>
     </div>
     </section>
