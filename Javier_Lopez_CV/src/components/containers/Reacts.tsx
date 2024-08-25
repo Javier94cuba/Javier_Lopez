@@ -6,20 +6,18 @@ function Reacts() {
     <div className="relative bg-white">
       <div className="mx-auto max-w-7xl lg:flex lg:justify-between lg:px-8 xl:justify-end">
         <div className="lg:flex lg:w-1/2 lg:shrink lg:grow-0 xl:absolute xl:inset-y-0 xl:right-1/2 xl:w-1/2">
-        <div className="ml-16 p-12 lg:sticky lg:top-4 lg:col-start-2 lg:row-span-2 lg:row-start-1 lg:overflow-hidden">
+        <div className="p-10 lg:sticky lg:top-4 lg:col-start-2 lg:row-span-2 lg:row-start-1 lg:overflow-hidden">
           <img
             src={react_js}
-            //  className="w-[48rem] max-w-none rounded-xl bg-gray-900 shadow-xl ring-1 ring-gray-400/10 sm:w-[57rem]"
-            className="h-72  "
           />
         </div>
         </div>
         <div className="px-6 lg:contents">
           <div className="mx-auto max-w-2xl pb-24 pt-16 sm:pb-32 sm:pt-20 lg:ml-8 lg:mr-0 lg:w-full lg:max-w-lg lg:flex-none lg:pt-32 xl:w-1/2">
-            <h1 className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">React Js expertise</h1>
+            <h1 className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl ml-24">React Js expertise</h1>
 
             <div className="mt-10 max-w-xl text-base leading-7 text-gray-700 lg:max-w-none">
-              <p>
+              <p className="mt-2 text-center tracking-tight text-gray-900">
               To obtain a challenging Frontend/Software Designer position where my creativity, 
               problem-solving skills, and experience in designing engaging and user-friendly 
               interfaces can be utilized to enhance user experiences and drive business objectives.
