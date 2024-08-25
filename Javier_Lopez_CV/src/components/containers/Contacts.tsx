@@ -14,7 +14,7 @@ function Contacts() {
        <ul className="ml-28">   
             <li className="mt-2 mb-2 flex"><img className=" h-7" src={linkedin}/>&nbsp;:&nbsp; <a className="cursor-pointer hover:animate-jump animate-once hover:text-blue-500" target="_blank" href="https://linkedin.com/in/javier-lopéz-hernández-831a01192"> Linkedin</a></li>
             <li className="mt-2 mb-2 flex"><img className=" h-7" src={phone}/>&nbsp;: +(1) 786 200 9016</li>
-            <li className="mt-2 mb-2 flex"><img className=" h-7" src={email}/>&nbsp;: jlopezhdez94@gmail.com</li>
+            <li className="mt-2 mb-2 flex"><img className=" h-7" src={email}/>&nbsp;: jlopezhdez94@gmail</li>
        </ul>
     </div>
     </div>
