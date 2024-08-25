@@ -12,7 +12,7 @@ function Contacts() {
     <div className="p-10 border-dashed border-2 border-slate-300">
     <p className="p-2 mb-5 text-center">If you have any questions or specific issues, please leave <br/>a message and we will respond as soon as possible.</p>
        <ul className="ml-20">   
-            <li className="mt-2 mb-2 flex"><img className=" h-7" src={linkedin}/>&nbsp;:&nbsp; <a className="cursor-pointer hover:animate-jump animate-once hover:text-blue-500" target="_blank" href="https://linkedin.com/in/javier-lopéz-hernández-831a01192"> Linkedin</a></li>
+            <li className="mt-2 mb-2 flex"><img className=" h-7" src={linkedin}/>&nbsp;:&nbsp; <a className="cursor-pointer hover:animate-jump animate-once hover:text-blue-500" target="_blank" href="https://www.linkedin.com/in/javier-l%C3%B3pez-hern%C3%A1ndez-831a01192/"> Linkedin</a></li>
             <li className="mt-2 mb-2 flex"><img className=" h-7" src={phone}/>&nbsp;: +(1) 786 200 9016</li>
             <li className="mt-2 mb-2 flex"><img className=" h-7" src={email}/>&nbsp;: jlopezhdez94@gmail</li>
        </ul>
